@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    margin: 0px;
+}
+main{
+    margin-top: 97px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 10px;
+}
+#logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+#navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 6px;
+}
+#navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*HOME*/
+
+#back-home{
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    justify-content: center;
+}
+#col-home{
+    width: 50%;
+}
+.title1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.text{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin: 12px;
+}
+#buttons .R {
+    border: none;
+    background-color: #C29D62;
+}
+
+/* ABOUT*/
+
+.about{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.colum-a{
+    width: 40%;
+    padding: 30px;
+}
+.title2{
+    padding: 0 0 15px 0;
+    width: 100%;
+    border-bottom: 2px solid  burlywood;
+}
+.title3{
+    font-size: 40px;
+}
+.colum-a .text{
+    color: gray;
+    text-align: left;
+    font-size: 14px;
+}
+.image{
+    width: 500px;
+    height: 350px;
+    background-image: url(img/story.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*PRICING*/
+
+#back-pricing{
+    background-color: black;
+}
+.Pricing{
+    justify-content: space-around;
+    padding: 0px 60px;
+    margin-top: 60px;
+}
+.mush{
+    width: 400px;
+    height: 300px;
+    background-image: url(img/hongos.png);
+}
+.crab{
+    width: 400px;
+    height: 300px;
+    background-image: url(img/cangrejo.png);
+}
+.colum-b{
+    width: 30%;
+    text-align: center;
+    padding: 8px;
+}
+#price{
+    color: #C29D62;
+}
+.title4{
+    color: gray;
+}
+.colum-b .text{
+    color: gray;
+    text-align: inherit;
+    font-size: 12.5px;
+}
+
+/*TESTIMONIALS*/
+
+.titles{
+    justify-content: center;
+    margin-top: 60px;
+}
+.content .title2{
+    text-align: center;
+}
+.colum-c{
+    width: 25%;
+    margin: 0px 38px;
+}
+.colum-c .title4{
+    color: black;
+}
+.testimonial{
+  padding: 0px 35px;
+}
+.colum-c .text{
+    text-align: left;
+    font-size: 14px;
+}
+#name{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/*CONTACT*/
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.contact{
+    justify-content: center;
+}
+.colum-e{
+    width: 35%;
+    background-color: #1F1F1F;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    padding: 60px 0px;
+    height: 500px;
+}
+.colum-e .title4{
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+}
+.colum-e ul{
+    border-bottom:  2px solid #C29D62;
+    margin: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.colum-e ul li{
+    list-style: none;
+    font-size: 13.5px;
+}
+.colum-e li:nth-child(1){
+    font-weight: bold;
+}
+.colum-e .btn{
+    border: none;
+    display: inline-block;
+    background-color: #C29D62;
+    margin-top: 25px;
+}
+.title5{
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.colum-e .text{
+    font-size: 13.5px;
+    color: white; 
+    margin: 0px;
+    text-align: center;
+}
+.up{
+    margin-top: 28px;
+}
+.down{
+    margin-top: 50px;
+}
+form{
+    margin-top: 25px;
+}
+input[type="text"], input[type="email"] {
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+input[type="submit"]{
+    width: 74%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #C29D62;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*RESPONSIVE*/
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    
+    .menu-icon{
+        display: block;
+        float: right;
+        margin-right: -150px;
+    }
+    nav{     
+        background-color: #333;
+        position: absolute;
+        left: 0px;
+        top: 98px;
+        width: 100%;
+        display: none;
+    }
+    nav li{
+        width: 50%;
+        display: block;
+    }
+    nav li a{
+        color: white !important;
+    }
+    .container {
+        margin: 0px 38px; 
+        
+    }
+    #col-home {
+        width: 100%;
+    }
+    .title1 {
+        font-size: 40px; 
+    }
+    .about {
+        flex-direction: column;
+    }
+    .colum-a {
+        width: 100%;
+    }
+    .image {
+        width: 688px;
+    }
+    .Pricing {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .colum-b {
+        width: 100%;
+    }
+    .title3 {
+        font-size: 30px;
+    }
+    .title4 {
+        margin: 0;
+    }
+    .colum-b .text {
+        font-size: 13.5px;
+    }
+    .testimonial {
+        flex-direction: column;
+    }
+    .colum-c {
+        width: 100%;
+    }
+    .stars{
+        width: 30% !important;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .colum-e {
+        width: 100%;
+        padding: 20px 0px;
+        margin-bottom: -32px;
+    }
+    .down {
+        margin-top: 10px; 
+    }
+    footer {
+        height: 200vh;
+        margin-top: 0px;
+    }
+}
